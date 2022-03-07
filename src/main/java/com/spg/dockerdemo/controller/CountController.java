@@ -19,6 +19,7 @@ public class CountController {
         // 我是branch1上加的注释     master
         // 我是branch1上加的注释   branche1
         // 我是从本地添加的，要推送到github
+        // 我是在github上直接修改的
         return "有【" + i + "】人访问了";
     }
 }
