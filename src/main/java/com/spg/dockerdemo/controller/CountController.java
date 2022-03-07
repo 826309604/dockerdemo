@@ -16,7 +16,7 @@ public class CountController {
         Long i = redisTemplate.opsForValue().increment("countPeople");
         //**我是第二个版本加的注释
         //我是第三个版本加的注释
-        // 我是branch1上加的注释
+        // 我是branch1上加的注释     master
         return "有【" + i + "】人访问了";
     }
 }
