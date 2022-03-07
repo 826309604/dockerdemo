@@ -14,6 +14,7 @@ public class CountController {
     @GetMapping("/hello")
     public String count(){
         Long i = redisTemplate.opsForValue().increment("countPeople");
+        //**我是第二个版本加的注释
         return "有【" + i + "】人访问了";
     }
 }
